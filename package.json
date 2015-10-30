@@ -1,0 +1,44 @@
+{
+  "name": "window-docker",
+  "version": "0.1.0",
+  "description": "Dock your window",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test",
+    "install": "native-builder build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nachos/window-docker.git"
+  },
+  "keywords": [
+    "nachos",
+    "window",
+    "dock",
+    "docker"
+  ],
+  "author": "Nachos team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nachos/window-docker/issues"
+  },
+  "homepage": "https://github.com/nachos/window-docker#readme",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.1.0",
+    "native-builder": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-bump": "^1.0.0",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-istanbul": "^0.10.2",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^1.12.0",
+    "gulp-mocha": "^2.1.3",
+    "jscs-nachos": "^1.0.1",
+    "jshint-stylish": "^2.0.1",
+    "lazypipe": "^1.0.1",
+    "run-sequence": "^1.1.4"
+  }
+}
